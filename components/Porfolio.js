@@ -17,9 +17,10 @@ export default function Portfolio() {
             height={"50%"}
             layout="responsive"
             src={project1}
+            alt="Unqork Project"
           />
         <h3 className="text-lg text-teal-500 font-medium pt-8 pb-2  ">
-            Unqork's Web App
+            Unqorks Web App
         </h3>
         </div>
         <div className="basis-1/3 flex-1">
@@ -29,9 +30,10 @@ export default function Portfolio() {
             height={"50%"}
             layout="responsive"
             src={project2}
+            alt="Funko Project"
           />
         <h3 className="text-lg text-teal-500 font-medium pt-8 pb-2  ">
-            Funko's Mobile and Web App
+            Funkos Mobile and Web App
         </h3>
         </div>
         <div className="basis-1/3 flex-1">
@@ -41,9 +43,10 @@ export default function Portfolio() {
             height={"50%"}
             layout="responsive"
             src={project3}
+            alt="Lululemon Project"
           />
          <h3 className="text-lg text-teal-500 font-medium pt-8 pb-2  ">
-            Lululemons's Internal app
+            Lululemonss Internal app
         </h3>
         </div>
         <div className="basis-1/3 flex-1">
@@ -53,9 +56,10 @@ export default function Portfolio() {
             height={"50%"}
             layout="responsive"
             src={project4}
+            alt="NYL Project"
           />
         <h3 className="text-lg text-teal-500 font-medium pt-8 pb-2  ">
-            New York Life's Internal apps
+            New York Lifes Internal apps
         </h3>
         </div>
         <div className="basis-1/3 flex-1">
@@ -65,9 +69,10 @@ export default function Portfolio() {
             height={"50%"}
             layout="responsive"
             src={project5}
+            alt="Corelight Project"
           />
         <h3 className="text-lg text-teal-500 font-medium pt-8 pb-2  ">
-            Corelight's Internal Web App
+            Corelights Internal Web App
         </h3>
         </div>
         <div className="basis-1/3 flex-1">
@@ -77,9 +82,10 @@ export default function Portfolio() {
             height={"50%"}
             layout="responsive"
             src={project6}
+            alt="Disney Project"
           />
         <h3 className="text-lg text-teal-500 font-medium pt-8 pb-2  ">
-            Disney's Internal Web App
+            Disneys Internal Web App
         </h3>
         </div>
     </div>

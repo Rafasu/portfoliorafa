@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Rafasu's Portfolio</title>
+        <title>Rafasus Portfolio</title>
         <meta name="description" content="Rafael Solis Uttilla Porfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -61,26 +61,26 @@ export default function Home() {
               Software Engineer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Welcome, my name is Rafael Solis and I'm a Full Stack Developer based in Mexico. I have developed
+              Welcome, my name is Rafael Solis, Full Stack Developer based in Mexico. I have developed
               many types of applications for large companies to startups.
             </p>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              I'm passionate about new solutions that help others and understanding systems and the complexity
+              Passionate about new solutions that help others and understanding systems and the complexity
               behind them. Please feel free to contact me. 
             </p>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Please feel free to contact me. 
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://www.linkedin.com/in/rafasu/" target="_blank">
+              <a href="https://www.linkedin.com/in/rafasu/" target="_blank" rel="noreferrer">
                 <AiFillLinkedin />
               </a>
-              <a href="https://github.com/rafasu" target="_blank">
+              <a href="https://github.com/rafasu" target="_blank" rel="noreferrer">
                 <AiFillGithub />
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={rafasu} layout="fill" objectFit="cover" />
+              <Image src={rafasu} layout="fill" objectFit="cover" alt="Rafael Solis picture"/>
             </div>
           </div>
         </section>
@@ -99,7 +99,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt="Code logo 1"/>
               <h3 className="text-lg text-teal-600 font-medium pt-8 pb-2 ">
                 Front-End
               </h3>
@@ -113,7 +113,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">NextJs</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt="Code logo 2"/>
               <h3 className="text-lg text-teal-600 font-medium pt-8 pb-2 ">
                 Back-End
               </h3>
@@ -125,7 +125,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Posgresql/Mongo</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt="Consulting logo" />
               <h3 className="text-lg text-teal-600 font-medium pt-8 pb-2 ">
                 Other Tools
               </h3>
